@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Frank+Ruhl+Libre:wght@700;900&family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,500;1,800&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/style/vecteezy_fantasy-magical-enchanted-fairy-tale-landscape-fabulous_24495260_770.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt{
+    display: flex;
+    justify-content:center;
+}
+
+#text {
+    font-family: 'Indie Flower';
+    color:#FFF;
+    font-weight: 600;
+    font-size: 24px;
+    width: 52%;
+}
+
+button {
+    background-color:#8fac92;
+    margin-right: 50px;
+    border-radius: 50%;
+    border-style:hidden;
+}
+
+.buttontext {
+    font-family: 'Indie Flower';
+    font-weight: 600;
+    font-size: 16px;
+}
